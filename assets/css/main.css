@@ -2331,15 +2331,15 @@
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		border: solid 1px #efefef;
+		color: #efefef !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
 		height: 3.15em;
 		height: calc(2.75em + 6px);
 		line-height: 2.75em;
-		min-width: 10em;
+		min-width: 8em;
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
@@ -2463,13 +2463,13 @@
 /* Header */
 
 	#header {
-		background-color: #1f1815;
-		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
-		color: rgba(255, 255, 255, 0.5);
+		background-color: #ffffff;
+		background-attachment: scroll,scroll;
+		background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
+		background-position: top left,top left;
+		background-repeat: repeat,no-repeat;
+		background-size: auto,auto 100%;
+		color: rgba(255, 0, 055, 1.0);
 		height: 100%;
 		left: 0em;
 		padding: 4em 0em 100% 4%;
