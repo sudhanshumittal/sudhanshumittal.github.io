@@ -2465,11 +2465,11 @@
 
 	#header {
 		background-color: #222222;
-		background-attachment: /*scroll,*/scroll;
-		background-image: /*url("images/overlay.png"),*/ url("../../images/bg2.jpg");
-		background-position: /*top left,*/top left;
-		background-repeat: /*repeat,*/no-repeat;
-		background-size: /*auto,*/auto 100%;
+		background-attachment: scroll,scroll;
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-position: top left,top left;
+		background-repeat: repeat,no-repeat;
+		background-size: auto,auto 100%;
 		color: rgba(255, 0, 055, 1.0);
 		height: 100%;
 		left: 0em;
