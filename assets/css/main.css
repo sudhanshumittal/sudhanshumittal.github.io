@@ -1767,8 +1767,8 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
-		background: #f7f7f7;
+/*		appearance: none;
+*/		background: #f7f7f7;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -2154,7 +2154,7 @@
 		}
 
 			ul.actions li {
-				display: inline-block;
+				/*display: inline-block;*/
 				padding: 0 1em 0 0;
 				vertical-align: middle;
 			}
@@ -2336,9 +2336,9 @@
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		height: 3.15em;
-		height: calc(2.75em + 6px);
-		line-height: 2.75em;
+		height: 2.15em;
+		height: calc(2.00em + 6px);
+		line-height: 2.00em;
 		min-width: 8em;
 		padding: 0 1.5em;
 		text-align: center;
@@ -2496,7 +2496,7 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 80%;
+			width: 60%;
 			border: 1px solid;
 		}
 
