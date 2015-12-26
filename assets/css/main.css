@@ -2151,6 +2151,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+
 		}
 
 			ul.actions li {
@@ -2463,20 +2464,20 @@
 /* Header */
 
 	#header {
-		background-color: #ffffff;
-		background-attachment: scroll,scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
-		background-position: top left,top left;
-		background-repeat: repeat,no-repeat;
-		background-size: auto,auto 100%;
+		background-color: #222222;
+		background-attachment: /*scroll,*/scroll;
+		background-image: /*url("images/overlay.png"),*/ url("../../images/bg2.jpg");
+		background-position: /*top left,*/top left;
+		background-repeat: /*repeat,*/no-repeat;
+		background-size: /*auto,*/auto 100%;
 		color: rgba(255, 0, 055, 1.0);
 		height: 100%;
 		left: 0em;
-		padding: 4em 0em 100% 4%;
+		padding: 2.5% 0em 100% 0%;
 		position: fixed;
-		text-align: left;
+		text-align: center;
 		top: 0;
-		width: 21%;
+		width: 16%;
 	}
 
 		#header strong, #header b {
@@ -2496,19 +2497,19 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 60%;
-			border: 1px solid;
+			width: 62%;
+			border: none;
 		}
 
 /* Footer */
 
 	#footer {
-		bottom: 0;
+		bottom: 2%;
 		left: 0;
-		padding: 0em 2% 2% 0;
+		padding: 2.5% 0em 0% 0%;
 		position: fixed;
-		text-align: right;
-		width: 15%;
+		text-align: center;
+		width: 16%;
 	}
 
 		#footer .icons {
@@ -3063,6 +3064,7 @@
 					padding: 1em 0 0 0;
 					text-align: center;
 					width: 100%;
+					font-: 
 				}
 
 					ul.actions li:first-child {
