@@ -2157,7 +2157,7 @@
 			ul.actions li {
 				/*display: inline-block;*/
 				padding: 0 1em 0 0;
-				vertical-align: middle;
+				vertical-align: left;
 			}
 
 				ul.actions li:last-child {
@@ -2465,11 +2465,11 @@
 
 	#header {
 		background-color: #222222;
-		background-attachment: scroll,scroll;
+		background-attachment: fixed,fixed;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,top left;
 		background-repeat: repeat,no-repeat;
-		background-size: auto,auto 100%;
+		background-size: auto,auto 200%;
 		color: rgba(255, 0, 055, 1.0);
 		height: 100%;
 		left: 0em;
@@ -2504,7 +2504,7 @@
 /* Footer */
 
 	#footer {
-		bottom: 2%;
+		bottom: 1%;
 		left: 0;
 		padding: 2.5% 0em 0% 0%;
 		position: fixed;
